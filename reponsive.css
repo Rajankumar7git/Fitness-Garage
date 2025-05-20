@@ -1,0 +1,425 @@
+/*@media(max-width:1235px){
+    ul{
+        width:45%;
+
+    }
+}
+@media(max-width:1050px){
+   header ul{
+    
+    background-color: aquamarine;
+    line-height: 80px;
+    display: block;
+    margin-top:484px;
+    text-align: center;
+    width: 100%;
+    
+   
+    }
+    ul li{
+        
+    }
+    .logo{
+        width: 300px;
+    }
+}*/
+@media(max-width:1050px){
+    .home-head-text{
+        font-size: 10vw;
+    }
+    .hero-main-box h1{
+        font-size: 7vw;
+    }
+    .hero-mini-box p{
+       font-size: 1.5vw;
+       color: rgb(0, 0, 0);
+    }
+    .hero{
+        height: 60%;
+    }
+    .hero-box-1{
+        height: 50%;
+    }
+    /*addtext*/
+    #add {
+        height: 70vh;
+    }
+    #add h1{
+    font-size: 12vw;
+    }
+    /*about*/
+    .content-text{
+        position: relative;
+        top: 5%;
+    }
+    .About-slogan{
+        font-size: 1.2vw;
+        position: relative;
+        top: 8%;
+    }
+    .about-content-box{
+        margin-top: 5%;
+    }
+    /*Advertisemen*/
+    #Advertisemen h1{
+        position: relative;
+       top:10%; 
+    }
+    #Advertisemen p{
+        margin-top: 15%; 
+     }
+     /*admision */
+
+     .admision-left{
+     height: 90%;
+     margin-top: 10%;
+     }
+     .admision-right{
+     height: 90%;
+     margin-top: 10%;
+     
+     }
+     form input{
+        height: 4vw;
+        width: 70%;
+     }
+     form select{
+        height: 4vw;
+        width: 70%;
+     }
+     form textarea{
+        height: 12vw;
+        width: 70%;
+     }
+     .admision-right button{
+        padding:1vw 3vw;
+      border-radius: 1vw;
+      margin-top: 2vw;
+      text-transform: capitalize;
+      background-color: #000000;
+      color: #ffffff;
+      border: 0;
+      }
+}
+/*navbar*/
+@media(max-width:1200px){
+    nav ul li a{
+        font-size: 1.2vw;
+    }
+    .logo{
+        font-size: 1.1vw;
+    }
+}
+@media(max-width:1050px){
+ nav ul li a{
+        font-size:1.5vw;
+    }
+    .logo{
+        font-size: 1.5vw;
+    }
+}
+
+@media(max-width:768px){
+   .nav-list{
+       position:absolute;
+       top:50px;
+       opacity: 0;
+       left:0;
+       right: 0;
+       height:50vh;
+       width:100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color:#000000;
+       transform: translateX(-100%) ;
+       transition: 0.50s;
+    
+    }
+    nav ul li a{
+        font-size: 2vw;
+        text-align: center;
+    }
+    #open{
+        display: block;
+        color: #ffffff;
+        font-size: 4vw;
+    }
+    #close{
+        display: none;
+        color: #ffffff;
+        font-size: 4vw;
+    }
+    .open-close-btn{
+        display: block;
+        margin-right: 4vw;
+    }
+ .nav-active .nav-list{
+    transform: translateX(0);
+    opacity: 1;
+ }
+ .nav-active #open{
+display: none;
+ }
+ .nav-active #close{
+    display:block;
+     }
+    }
+
+    /*admision*/
+    @media(max-width:1272px){
+        .admision-right input{
+            height: 5vw;
+            width: 90%;
+        }
+        .admision-right select{
+            height: 5vw;
+            width: 90%;
+        }
+        .admision-right textarea{
+            width: 90%;
+            height:20vh;
+        }
+    }
+   
+
+/*break point 420px*/
+@media(max-width:420px){
+    .home-head-text{
+        position: relative;
+        top: 30%;
+        right: 12%;
+        font-size:15vw;
+        line-height: 14vw;
+        
+    }
+    .hero-main-box{
+        background-image: url("fitness.img/home-img (2).jpg");
+        background-position:center;
+        background-size:cover;
+        border: 1px solid black;
+        height:100%;
+        width: 100%;
+        border-radius: 0%;
+    }
+    .hero-main-box h1{
+        font-size: 12vw;
+        font-weight: 900;
+        color:#c3ff00;
+        
+    }
+    .hero-mini-box p{
+      font-size: 2.5vw;
+      font-weight: 900;
+      color: #ffffff;
+      
+      
+    }
+    .hero-mini-box i{
+        font-size: 10vw;
+        
+      }
+    .hero{
+        margin-top: 20%;
+    }
+    .logo{
+        font-size: 4vw;
+    }
+    
+    /*addtext*/
+    #add {
+        height: 70vh;
+    }
+    #add h1{
+   font-size: 20vw;
+   line-height: 25vw;
+   margin-bottom: 20vw;
+    }
+    /*about*/
+    #about{
+        height: 70vh;
+    }
+    .content-text{
+       font-size: 10vw;
+       line-height: 10vw;
+    }
+    .About-slogan{
+      font-size: 2.8vw;
+    }
+    .about-content-box{
+        width: 100%;
+        flex-direction: column;
+    }
+    .about-box{
+        width: 95%;
+        gap:14vw;
+    }
+    .box i{
+        font-size: 10vw;
+    }
+    .box p{
+        font-size: 3vw;
+    }
+    /*membership*/
+    #membership{
+        height: 150vh;
+        padding-top: 20vw;
+    }
+    .membership-head-text{
+        font-size: 12vw;
+    }
+    .membership-content{
+        flex-direction: column;
+        width: 90%;
+        gap: 5vw;
+        height: 70%;
+    }
+    .membership-box{
+        width: 95%;
+        height: 100%;
+
+    }
+    .mem-box{
+        width: 100%;
+        height: 50%;
+        gap: 5vw;
+    }
+    .mem-box p{
+        font-size: 3vw;
+    }
+     .mem-box i{
+        font-size: 8vw;
+    }
+    /*Advertisemen*/
+
+    #Advertisemen{
+        height: 80vh;
+        position: relative;
+        text-align: center;
+    }
+    #Advertisemen h1{
+       font-size: 15vw;
+    }
+    #Advertisemen p{
+      font-size: 2.5vw;
+      margin-top: 20%;
+    text-align: center;
+    
+     }
+     #Advertisemen button{
+        padding: 2vw 4vw;
+         position: relative;
+         top: 10%;
+         right: 22%;
+
+     }
+     /*admision */
+     #admision{
+        flex-direction: column;
+        height: 150vh;
+     }
+     .admision-left{
+    width: 100%;
+    height: 50%;
+     }
+     .admision-right{
+    width: 100%;
+    height: 50%;
+    margin-top: 70%;
+     
+     }
+     .admision-right p{
+        font-size: 10vw;
+     }
+     form input{
+        height: 10vw;
+        font-size: 4vw;
+        border-radius: 2vw;
+     }
+     form select{
+      height: 10vw;
+      font-size: 4vw;
+      border-radius: 2vw;
+     }
+     form textarea{
+       height:30vw;
+       width: 80%;
+       font-size:4vw;
+       border-radius: 2vw;
+     }
+     .admision-left p{
+        font-size: 12vw;
+     }
+     .left-icon {
+    height: 15vw;
+    width: 80%;
+    margin-top: 10vw;
+
+     }
+     .left-icon p{
+        font-size: 3vw;
+     }
+     .left-icon i{
+        font-size: 6vw;
+     }
+     .left-box{
+        height: 80%;
+        width: 90%;
+     }
+     .admision-left button{
+        padding: 4vw 10vw;
+        border-radius: 3vw;
+       }
+     .admision-right button{
+       padding: 4vw 10vw;
+       border-radius: 3vw;
+      }
+    }
+
+/*admision*/
+@media(max-width:1272px){
+
+}
+
+/*contact*/
+    @media(max-width:1272px) {
+        #contact{
+            height: 80vh;
+        }
+     .contact-left .contact-dtls i{
+        font-size: 3vw;
+
+     }   
+     .contact-left .dtls-box2 p{
+        font-size: 1.6vw;
+        text-align:justify;
+        letter-spacing: 1px;
+
+     }   
+     .dtls-box2{
+        display: flex;
+        flex-direction: column;
+        gap: 3vw;
+     }
+    }
+    @media(max-width:1190px){
+        .contact-dtls{
+            position: relative;
+            top: 10%;
+        }
+        .location{
+            position: relative;
+            top: 10%;
+        }
+    }
+    @media(max-width:900px){
+        #contact{
+            padding: 2vw vw;
+        }
+    }
+
+    
+
+
+   
